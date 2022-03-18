@@ -1,4 +1,7 @@
 
+*{
+    box-sizing: border-box;
+}
 
 body {
     font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -27,9 +30,16 @@ h2 {
 }
 
 #main-menu {
-    display: inline;
+    display: inline-block;
 }
 
 ul {
+    list-style: none;
     font-size: 20px;
+    text-align: justify;
+    
+}
+
+li {
+    margin: 10px;
 }
